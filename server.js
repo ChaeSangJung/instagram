@@ -23,6 +23,7 @@ const resolvers = {
   Mutation: {
       createMovie: (_, { title }) => {
         console.log(title);
+        console.log(title)
         return true;
       },
       deleteMovie: (_, { title }) => {
